@@ -1,0 +1,99 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"method": {
+		"scope": "javascript,typescript",
+		"prefix": "me",
+		"body": [
+			"${1}(): ${2} {",
+			"    ${3}",
+			"}",
+		],
+		"description": "Creating method without parameters"
+	},
+	"method1": {
+		"scope": "javascript,typescript",
+		"prefix": "me1",
+		"body": [
+			"${1}(${2}: ${3}): ${4} {",
+			"    ${5}",
+			"}",
+		],
+		"description": "Creating method with 1 parameters"
+	},
+	"method2": {
+		"scope": "javascript,typescript",
+		"prefix": "me2",
+		"body": [
+			"${1}(${2}: ${3}, ${4}: ${5}): ${6} {",
+			"    ${7}",
+			"}",
+		],
+		"description": "Creating method with 2 parameters"
+	},
+	"method3": {
+		"scope": "javascript,typescript",
+		"prefix": "me3",
+		"body": [
+			"${1}(${2}: ${3}, ${4}: ${5}, ${6}: ${7}): ${8} {",
+			"    ${9}",
+			"}",
+		],
+		"description": "Creating method with 3 parameters"
+	},
+	"method4": {
+		"scope": "javascript,typescript",
+		"prefix": "me4",
+		"body": [
+			"${1}(${2}: ${3}, ${4}: ${5}, ${6}: ${7}, ${8}: ${9}): ${10} {",
+			"    ${11}",
+			"}",
+		],
+		"description": "Creating method with 4 parameters"
+	},
+	"console log": {
+		"scope": "javascript,typescript",
+		"prefix": "clog",
+		"body": [
+			"console.log(`${TM_SELECTED_TEXT:${1}}`);"
+		],
+		"description": "Console log"
+	},
+	"inject dependency": {
+		"scope": "javascript,typescript",
+		"prefix": "di",
+		"body": [
+			"private ${2}: ${1}"
+		],
+		"description": "inject dependency inside constructor"
+	},
+	"inject dependency and constructor": {
+		"scope": "javascript,typescript",
+		"prefix": "cdi",
+		"body": [
+			"constructor(private ${2}: ${1}) {}"
+		],
+		"description": "inject dependency and creating the constructor"
+	},
+	"Create const variable": {
+		"scope": "javascript,typescript",
+		"prefix": "cva",
+		"body": [
+			"const ${2}: ${1}"
+		],
+		"description": "Create variable constant"
+	},
+	"Create let variable": {
+		"scope": "javascript,typescript",
+		"prefix": "lva",
+		"body": [
+			"let ${2}: ${1}"
+		],
+		"description": "Create variable let"
+	},
+}
