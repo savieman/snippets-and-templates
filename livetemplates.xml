@@ -1,0 +1,69 @@
+<templateSet group="Custom JS TS">
+  <template name="me" value="$NAME$(): $TYPE$ {\n    $END$\n}" description="Creating method without parameters" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JavaScript" value="true"/>
+      <option name="TypeScript" value="true"/>
+    </context>
+  </template>
+
+  <template name="me1" value="$NAME$($P1$: $T1$): $TYPE$ {\n    $END$\n}" description="Creating method with 1 parameter">
+    <context>
+      <option name="JavaScript" value="true"/>
+      <option name="TypeScript" value="true"/>
+    </context>
+  </template>
+
+  <template name="me2" value="$NAME$($P1$: $T1$, $P2$: $T2$): $TYPE$ {\n    $END$\n}" description="Creating method with 2 parameters">
+    <context>
+      <option name="JavaScript" value="true"/>
+      <option name="TypeScript" value="true"/>
+    </context>
+  </template>
+
+  <template name="me3" value="$NAME$($P1$: $T1$, $P2$: $T2$, $P3$: $T3$): $TYPE$ {\n    $END$\n}" description="Creating method with 3 parameters">
+    <context>
+      <option name="JavaScript" value="true"/>
+      <option name="TypeScript" value="true"/>
+    </context>
+  </template>
+
+  <template name="me4" value="$NAME$($P1$: $T1$, $P2$: $T2$, $P3$: $T3$, $P4$: $T4$): $TYPE$ {\n    $END$\n}" description="Creating method with 4 parameters">
+    <context>
+      <option name="JavaScript" value="true"/>
+      <option name="TypeScript" value="true"/>
+    </context>
+  </template>
+
+  <template name="clog" value="console.log(`$SELECTION$`);" description="Console log">
+    <context>
+      <option name="JavaScript" value="true"/>
+      <option name="TypeScript" value="true"/>
+    </context>
+  </template>
+
+  <template name="di" value="private $NAME$: $TYPE$" description="Inject dependency">
+    <context>
+      <option name="TypeScript" value="true"/>
+    </context>
+  </template>
+
+  <template name="cdi" value="constructor(private $NAME$: $TYPE$) {}" description="Constructor with dependency">
+    <context>
+      <option name="TypeScript" value="true"/>
+    </context>
+  </template>
+
+  <template name="cva" value="const $NAME$: $TYPE$" description="Create const variable">
+    <context>
+      <option name="JavaScript" value="true"/>
+      <option name="TypeScript" value="true"/>
+    </context>
+  </template>
+
+  <template name="lva" value="let $NAME$: $TYPE$" description="Create let variable">
+    <context>
+      <option name="JavaScript" value="true"/>
+      <option name="TypeScript" value="true"/>
+    </context>
+  </template>
+</templateSet>
