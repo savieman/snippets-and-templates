@@ -110,7 +110,3 @@ Due to IntelliJ differences:
 * ❌ `$0` (final cursor position) → becomes last tab stop
 * ❌ `${TM_SELECTED_TEXT:fallback}` → fallback not supported
 
-✅ GitHub Actions to auto-convert on commit  
-✅ a UI page for this repo
-
-Just say the word 👍
