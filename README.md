@@ -110,45 +110,6 @@ Due to IntelliJ differences:
 * ❌ `$0` (final cursor position) → becomes last tab stop
 * ❌ `${TM_SELECTED_TEXT:fallback}` → fallback not supported
 
-***
-
-# 🧠 Notes
-
-* Template name = prefix (trigger word)
-* Tab order is controlled by **numeric variables**
-* Contexts currently supported:
-  * JavaScript
-  * TypeScript
-
-***
-
-# 🚀 Future Improvements (optional)
-
-* [ ] Support default placeholder values
-* [ ] GUI converter tool
-* [ ] More language scope mappings (React, Angular, Vue)
-* [ ] IntelliJ-specific optimisations (macros, functions)
-
-***
-
-# 👨‍💻 Author
-
-Maintained by **Saviel S. van Staveren**
-
-***
-
-# 💡 Contributing
-
-Feel free to:
-
-* Add new snippet sets
-* Improve conversion logic
-* Extend language support
-
-***
-
-If you want, I can also make:
-✅ badges (build, version, etc.)  
 ✅ GitHub Actions to auto-convert on commit  
 ✅ a UI page for this repo
 
