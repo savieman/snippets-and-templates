@@ -1,69 +1,104 @@
-<templateSet group="Custom JS TS">
-  <template name="me" value="$NAME$(): $TYPE$ {\n    $END$\n}" description="Creating method without parameters" toReformat="true" toShortenFQNames="true">
+<templateSet group="Custom VSCode Converted">
+  <template name="me" value="$1$(): $2$ {&#10;    $3$&#10;}" description="Creating method without parameters" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JavaScript" value="true"/>
-      <option name="TypeScript" value="true"/>
+      <option name="JavaScript" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
-
-  <template name="me1" value="$NAME$($P1$: $T1$): $TYPE$ {\n    $END$\n}" description="Creating method with 1 parameter">
+  <template name="me1" value="$1$($2$: $3$): $4$ {&#10;    $5$&#10;}" description="Creating method with 1 parameter" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JavaScript" value="true"/>
-      <option name="TypeScript" value="true"/>
+      <option name="JavaScript" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
-
-  <template name="me2" value="$NAME$($P1$: $T1$, $P2$: $T2$): $TYPE$ {\n    $END$\n}" description="Creating method with 2 parameters">
+  <template name="me2" value="$1$($2$: $3$, $4$: $5$): $6$ {&#10;    $7$&#10;}" description="Creating method with 2 parameters" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="7" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JavaScript" value="true"/>
-      <option name="TypeScript" value="true"/>
+      <option name="JavaScript" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
-
-  <template name="me3" value="$NAME$($P1$: $T1$, $P2$: $T2$, $P3$: $T3$): $TYPE$ {\n    $END$\n}" description="Creating method with 3 parameters">
+  <template name="me3" value="$1$($2$: $3$, $4$: $5$, $6$: $7$): $8$ {&#10;    $9$&#10;}" description="Creating method with 3 parameters" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="8" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="9" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JavaScript" value="true"/>
-      <option name="TypeScript" value="true"/>
+      <option name="JavaScript" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
-
-  <template name="me4" value="$NAME$($P1$: $T1$, $P2$: $T2$, $P3$: $T3$, $P4$: $T4$): $TYPE$ {\n    $END$\n}" description="Creating method with 4 parameters">
+  <template name="me4" value="$1$($2$: $3$, $4$: $5$, $6$: $7$, $8$: $9$): $10$ {&#10;    $11$&#10;}" description="Creating method with 4 parameters" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="8" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="9" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="10" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="11" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JavaScript" value="true"/>
-      <option name="TypeScript" value="true"/>
+      <option name="JavaScript" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
-
-  <template name="clog" value="console.log(`$SELECTION$`);" description="Console log">
+  <template name="clog" value="console.log(`$SELECTION$`);" description="Console log" toReformat="false" toShortenFQNames="false">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="JavaScript" value="true"/>
-      <option name="TypeScript" value="true"/>
+      <option name="JavaScript" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
-
-  <template name="di" value="private $NAME$: $TYPE$" description="Inject dependency">
+  <template name="di" value="private $2$: $1$" description="inject dependency inside constructor" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="TypeScript" value="true"/>
+      <option name="TypeScript" value="true" />
     </context>
   </template>
-
-  <template name="cdi" value="constructor(private $NAME$: $TYPE$) {}" description="Constructor with dependency">
+  <template name="cdi" value="constructor(private $2$: $1$) {}" description="inject dependency and constructor" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="TypeScript" value="true"/>
+      <option name="TypeScript" value="true" />
     </context>
   </template>
-
-  <template name="cva" value="const $NAME$: $TYPE$" description="Create const variable">
+  <template name="cva" value="const $2$: $1$" description="Create variable constant" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JavaScript" value="true"/>
-      <option name="TypeScript" value="true"/>
+      <option name="JavaScript" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
-
-  <template name="lva" value="let $NAME$: $TYPE$" description="Create let variable">
+  <template name="lva" value="let $2$: $1$" description="Create variable let" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JavaScript" value="true"/>
-      <option name="TypeScript" value="true"/>
+      <option name="JavaScript" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>
